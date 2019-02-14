@@ -33,6 +33,10 @@ $(document).ready(function() {
     })
 
     $('#whatIsGlassOn').click(function() {
-        console.log('aaa');
+        $('.dropdown > #whatIsGlassOn').addClass('toggle');
+    });
+
+    $('#timeToGet').click(function() {
+        $('.dropdown > #timeToGet').addClass('toggle');
     })
 });
