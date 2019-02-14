@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Glass On</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <div class="header__top">
+                <div class="dropdown">
+                    <div class="header__lang dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="../assets/svg/flag.svg" alt="Language">
+                        <span>Vietnamese</span>
+                        <img src="../assets/svg/subtract.svg" alt="">
+                    </div>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Vietnamese</a>
+                        <a class="dropdown-item" href="#">Japanese</a>
+                    </div>
+                </div>
+                <div class="header__signin">
+                    <i class="fa fa-user"></i>
+                    <span>Đăng ký</span>
+                    <img src="../assets/svg/line.svg" alt="">
+                    <span>Đăng nhập</span>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light nav__wrapper">
+                <div class="nav__logo">
+                    <img src="../assets/svg/logo.svg" alt="This is a logo" class="header__logo"/>
+                </div>
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <div class="dropdown">
+                            <li class="nav-item dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Kính mát
+                            </li>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <a class="dropdown-item" href="#">Sản phẩm mới</a>
+                                        <a class="dropdown-item" href="#">Bán chạy nhất</a>
+                                        <a class="dropdown-item" href="#">Xu hướng</a>
+                                        <a class="dropdown-item" href="#">Độc lạ</a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="dropdown-item" href="#">Kính nam</a>
+                                        <a class="dropdown-item" href="#">Kính nữ</a>
+                                        <a class="dropdown-item" href="#">Trẻ em</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <li class="nav-item">
+                            Kính râm
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button">
+                                <i class="fa fa-search form-control-feedback"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="form-group has-feedback has-search">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div> -->
+                <div class="nav__cart">
+                    <i class="fa fa-shopping-cart"></i>
+                    Giỏ hàng <span>(0)</span>
+                </div>
+            </nav>
+            <div class="navbar__responsive">
+                <div class="nav__left">
+                    <div class="navbar__res-menu cursor-poiter">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <div class="nav__logo cursor-poiter">
+                        <img src="../assets/svg/logo.svg" alt="This is a logo" class="header__logo"/>
+                    </div>
+                </div>
+                <div class="nav__right">
+                    <div class="navbar__res-search cursor-poiter">
+                        <div class="search-box">
+                            <input type="text" />
+                            <span></span>
+                        </div>
+                        <!-- <i class="fa fa-search"></i> -->
+                    </div>
+                    <div class="navbar__res-cart cursor-poiter">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="main__content">
+            <div class="content__top">
+                <div class="content__rectangle_pos"></div>
+                <div class="content__rectangle_lans"></div>
+                <div class="content__shop">
+                    <h2>GlassOn Shop</h2>
+                    <div>Đặt mua mắt kính <span>chính hãng</span> từ Nhật Bản</div>
+                </div>
+                <div class="content__ellipse">
+                    <img src="../assets/svg/ellipse_small.svg" alt="Image cover">
+                </div>
+                <div class="row content__show">
+                    <div class="col-md-6 col-sm-12 col-wrapper">
+                        <div class="content__image">
+                            <img src="../assets/image/00_Hero copy.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 content__shop-responsive">
+                        <h2>GlassOn Shop</h2>
+                        <div>Đặt mua mắt kính <span>chính hãng</span> từ Nhật Bản</div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 d-flex col-wrapper">
+                        <div class="row content__video">
+                            <div class="col-md-6 col-sm-12">
+                                <img class="content__video-thumbnail cursor-poiter" src="../assets/image/VideoThumbnail.png" alt="">
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <span class="content__video-detail">
+                                    <h5>Virtual Try-on</h5>
+                                    <p>Công nghệ thử kính ảo được tích hợp trên GlassOn Shop, giúp bạn thử kính trước khi mua</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="content__circle row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="content__item"
+                        data-aos="fade-up"
+                        data-aos-duration="500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false"
+                        data-aos-anchor-placement="top-center"
+                    >
+                        <img src="../assets/svg/circle_1.svg" alt="">
+                        <h4>Nhanh chóng</h4>
+                        <p>Thời gian mua và nhận hàng từ Nhật chỉ trong 2 tuần</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="content__item"
+                        data-aos="fade-up"
+                        data-aos-delay="150"
+                        data-aos-duration="500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false"
+                        data-aos-anchor-placement="top-center"
+                    >
+                        <img src="../assets/svg/circle_2.svg" alt="">
+                        <h4>100% Chính hãng</h4>
+                        <p>Cam kết 100% sản phẩm chính hảng từ nhà phân phối Nhật Bản</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="content__item"
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                        data-aos-duration="500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false"
+                        data-aos-anchor-placement="top-center"
+                    >
+                        <img src="../assets/svg/circle_3.svg" alt="">
+                        <h4>Thử kính ảo</h4>
+                        <p>Thử kính ngay trước màn hình với công nghệ của GlassOn</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row content__shopnow">
+                <div class="col-md-8">
+                    <div class="row">
+
+                        <div class="col-md-6 col-sm-12">
+                            <div class="content__shopnow-detail">
+                                <div class="shopnow-circle"></div>
+                                <h5>Shop now</h5>
+                                <div class="shopnow-line"></div>
+                                <p>Chọn mẫu kính bạn yêu thích</p>
+                                <div class="content-ellipse"
+                                    data-aos="fade-up"
+                                    data-aos-delay="100"
+                                    data-aos-duration="500"
+                                    data-aos-easing="ease-in-out"
+                                    data-aos-mirror="true"
+                                    data-aos-once="false"
+                                    data-aos-anchor-placement="top-center"
+                                >
+                                    <img src="../assets/svg/ellipse_big.svg" alt="">
+                                </div>
+                                <div class="content-ellipse_blue"
+                                    data-aos="zoom-in"
+                                    data-aos-delay="500"
+                                    data-aos-duration="1000"
+                                    data-aos-easing="ease-in-out"
+                                    data-aos-mirror="true"
+                                    data-aos-once="false"
+                                    data-aos-anchor-placement="top-center"
+                                ></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="content__shopnow-item"
+                                data-aos="fade-up"
+                                data-aos-duration="500"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                data-aos-once="false"
+                                data-aos-anchor-placement="top-center"
+                            >
+                                <img src="../assets/image/man.png" alt="">
+                                <div class="content__shop-rec">
+                                    <p>Kính nam</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-top-medium"></div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="content__shopnow-item"
+                                data-aos="fade-up"
+                                data-aos-delay="100"
+                                data-aos-duration="500"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                data-aos-once="false"
+                                data-aos-anchor-placement="top-center"
+                            >
+                                <img src="../assets/image/child.png" alt="">
+                                <div class="content__shop-rec">
+                                    <p>Trẻ em</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="content__shopnow-item"
+                                data-aos="fade-up"
+                                data-aos-delay="400"
+                                data-aos-duration="500"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                data-aos-once="false"
+                                data-aos-anchor-placement="top-center"
+                            >
+                                <img src="../assets/image/woman1.png" alt="">
+                                <div class="content__shop-rec">
+                                    <p>Xu hướng</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="content__shopnow-button"
+                                data-aos="fade-right"
+                                data-aos-delay="100"
+                                data-aos-duration="500"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                data-aos-once="false"
+                                data-aos-anchor-placement="top-center"
+                            >
+                                <span>See All Glasses</span>
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 content__space"></div>
+                        <div class="col-sm-12">
+                            <div class="content__shopnow-item"
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                                data-aos-duration="500"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                data-aos-once="false"
+                                data-aos-anchor-placement="top-center"
+                            >
+                                <img src="../assets/image/woman3.png" alt="">
+                                <div class="content__shop-rec">
+                                    <p>Kính nữ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="content__shopnow-item"
+                                data-aos="fade-up"
+                                data-aos-delay="100"
+                                data-aos-duration="500"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                data-aos-once="false"
+                                data-aos-anchor-placement="top-center"
+                            >
+                                <img src="../assets/image/woman2.png" alt="">
+                                <div class="content__shop-rec">
+                                    <p>Độc lạ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider m-top-huge m-bottom-big "></div>
+            <div class="row content__list">
+                <div class="col-sm-12 content__list_newItem">
+                    <h5>Sản phẩm mới</h5>
+                    <div class="content__list-button">
+                        <span>Xem tất cả</span>
+                        <i class="fa fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="content__owl-nav">
+                        <div class="owl-prev">
+                            <i class="fa fa-angle-left"></i>
+                        </div>
+                        <div class="owl-next">
+                            <i class="fa fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="owl-carousel content__carousel">
+                        <div class="owl-carousel-item">
+                            <img class="item-image" src="../assets/image/glass01.png" alt="">
+                            <div class="item-title">Fujika</div>
+                            <div class="item-sku">X34UJF00A</div>
+                            <div class="item-price">1.100.000đ</div>
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="item-image" src="../assets/image/glass02.png" alt="">
+                            <div class="item-title">Fujika</div>
+                            <div class="item-sku">X34UJF00A</div>
+                            <div class="item-price">1.100.000đ</div>
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="item-image" src="../assets/image/glass03.png" alt="">
+                            <div class="item-title">Fujika</div>
+                            <div class="item-sku">X34UJF00A</div>
+                            <div class="item-price">1.100.000đ</div>
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="item-image" src="../assets/image/glass04.png" alt="">
+                            <div class="item-title">Fujika</div>
+                            <div class="item-sku">X34UJF00A</div>
+                            <div class="item-price">1.100.000đ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider m-top-big m-bottom-big "></div>
+            <div class="row content__list">
+                <div class="col-sm-12 content__list_newItem">
+                    <h5>Bán chạy nhất</h5>
+                    <div class="content__list-button">
+                        <span>Xem tất cả</span>
+                        <i class="fa fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="content__owl-nav">
+                        <div class="owl-prev">
+                            <i class="fa fa-angle-left"></i>
+                        </div>
+                        <div class="owl-next">
+                            <i class="fa fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="owl-carousel content__carousel">
+                        <div class="owl-carousel-item">
+                            <img class="item-image" src="../assets/image/glass01.png" alt="">
+                            <div class="item-title">Fujika</div>
+                            <div class="item-sku">X34UJF00A</div>
+                            <div class="item-price">1.100.000đ</div>
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="item-image" src="../assets/image/glass02.png" alt="">
+                            <div class="item-title">Fujika</div>
+                            <div class="item-sku">X34UJF00A</div>
+                            <div class="item-price">1.100.000đ</div>
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="item-image" src="../assets/image/glass03.png" alt="">
+                            <div class="item-title">Fujika</div>
+                            <div class="item-sku">X34UJF00A</div>
+                            <div class="item-price">1.100.000đ</div>
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="item-image" src="../assets/image/glass04.png" alt="">
+                            <div class="item-title">Fujika</div>
+                            <div class="item-sku">X34UJF00A</div>
+                            <div class="item-price">1.100.000đ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider m-top-big m-bottom-big"></div>
+
+            <div class="row content__faq">
+                <div class="content__faq-logo">
+                    <div class="faq-circle"></div>
+                    <h5>FAQ</h5>
+                </div>
+                <div class="faq-ellipse">
+                    <img src="../assets/svg/ellipse_small.svg" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="content__faq-ques" id="whatIsGlassOn"
+                    >
+                        <div class="faq-ques">GlassOn Shop là gì ?</div>
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="content__faq-ques">
+                        <div class="faq-ques">Sản phẩm có phải hàng Nhật không ?</div>
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="content__faq-ques">
+                        <div class="faq-ques">Làm sao để đặt hàng ?</div>
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="content__faq-ques">
+                        <div class="faq-ques">Thời gian và cách thức nhận hàng ra sao  ?</div>
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="content__faq-ques">
+                        <div class="faq-ques">Tôi có thể hoàn trả lại sản phẩm không ?</div>
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="content__faq-ques">
+                        <div class="faq-ques">GlassOn Shop có bán hàng trực tiếp không ?</div>
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="height-250"></div>
+            
+            <div class="cart__circle-yellow">
+                <img src="../assets/svg/ellipse_small_yellow.svg" alt="">
+                <div class="cart__circle"></div>
+            </div>
+            <div class="content__cart row">
+                <div class="col-sm-12 col-md-4">
+                    <img class="content__cart-img" src="../assets/image/cart01.png" alt="">
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <img class="content__cart-img" src="../assets/image/cart02.png" alt="">
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="content__cart-detail">
+                        <div class="cart-detail-title">
+                            <div class="cart-title">Về GlassOn</div>
+                            <div class="cart-logo">
+                                <img src="../assets/svg/cart_logo.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="cart-detail">
+                            GlassOn là công nghệ giúp người mua có thể thử kính trực tiếp ngay trước màn hình máy tính hoặc điện thoại
+                        </div>
+                        <div class="cart-button">
+                            <span>Xem tất cả</span>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row cart__content-app">
+                    <p class="col-sm-12">Ứng dụng GlassOn cho điện thoại</p>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="cart-app">
+                            <img  src="../assets/svg/play-store.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="cart-app">
+                            <img  src="../assets/svg/app-store.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__event row">
+                <div class="col-md-6">
+                    <div class="content__event-text">
+                        <h5>Đăng ký nhận khuyến mãi</h5>
+                        <p>Nhận ngay thông tin khuyến mãi mới nhất từ GlassOn Shop</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="content__event-form">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Nhập email của bạn">
+                            <div class="input-group-append">
+                                <button class="btn btn-success" type="button">Đăng ký</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__contact-detail row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="content-contact">
+                        <div class="contact-detail">
+                            <img src="../assets/svg/logo.svg" alt="">
+                            <p>Phone: +84 123 4567 99</p>
+                            <p>Email: info@sk-global.biz</p>
+                            <p>Address: 12/34/45 Truong Quoc Dung, Ward 10, Phu Nhuan District, Ho Chi Minh City, Vietnam</p>
+                        </div>
+                        <div class="contact-paypal">
+                            <img src="../assets/svg/paypal.svg" alt="">
+                            <div class="paypal-button">Cash On Delivery</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="content-info">
+                        <h5>Mắt kính</h5>
+                        <p>Tất cả</p>
+                        <p>Kính cận</p>
+                        <p>Kính mát</p>
+                    </div>
+                    <div class="content-info p-top-big">
+                        <h5>Chất liệu</h5>
+                        <p>Carbon fiber</p>
+                        <p>Metal</p>
+                        <p>Plastic</p>
+                        <p>Titanum</p>
+                        <p>Wood</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="content-info">
+                        <h5>Giới tính</h5>
+                        <p>Mắt kính nam</p>
+                        <p>Mắt kính nữ</p>
+                        <p>Mắt kính trẻ em</p>
+                    </div>
+                    <div class="content-info p-top-big">
+                        <h5>Khác</h5>
+                        <p>Xu hướng</p>
+                        <p>Độc lạ</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="content-info">
+                        <h5>Kiểu dáng</h5>
+                        <p>Rectangle</p>
+                        <p>Square</p>
+                        <p>Wayframe</p>
+                        <p>Cat eye</p>
+                        <p>Brownline</p>
+                        <p>Oversized</p>
+                        <p>Oval</p>
+                        <p>Butterfly</p>
+                        <p>Geometric</p>
+                        <p>Aviator</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="content-info">
+                        <h5>Kết nối</h5>
+                        <span>
+                            <img src="../assets/svg/facebook.svg" alt="">
+                        </span>
+                        <span>
+                            <img src="../assets/svg/youtube.svg" alt="">
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider m-top-big"></div>
+
+            <div class="row content__footer">
+                <div class="col-sm-2 text-right">Term of service</div>
+                <div class="col-sm-2 text-left">Privacy policy</div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-7 text-right">COPYRIGHT © 2019 SPRING KNOWLEDGE GLOBAL JOINT STOCK COMPANY. ALL RIGHTS RESERVED </div>
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Play video</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="content__modal-video">
+                                    <iframe src="https://player.vimeo.com/video/316715538" width="766" height="430" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
