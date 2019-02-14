@@ -30,7 +30,7 @@ $(document).ready(function() {
 
     $('.content__video-thumbnail').click(function() {
         $('#exampleModalCenter').modal('toggle')
-    })
+    });
 
     $('#whatIsGlassOn').click(function() {
         $('.dropdown > #whatIsGlassOn').addClass('toggle');
@@ -38,5 +38,5 @@ $(document).ready(function() {
 
     $('#timeToGet').click(function() {
         $('.dropdown > #timeToGet').addClass('toggle');
-    })
+    });
 });
