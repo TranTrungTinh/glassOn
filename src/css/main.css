@@ -4,7 +4,11 @@ body, html {
     background: #fff;
     box-sizing: border-box;
 }
-/* class extendsion*/
+button:focus {
+    outline:none; 
+}
+
+/* class extendsion */
 .cursor-poiter {
     cursor: pointer;
 }
@@ -43,6 +47,8 @@ body, html {
     height: 2px;
     background: #F2F2F2;
 }
+/* end class extendsion */
+
 
 .header {
     padding: 5px 40px;
@@ -66,11 +72,24 @@ body, html {
 .navbar__responsive {
     display: none;
 }
+.navbar {
+    padding: 10px 0 !important;
+}
+.navbar-toggler {
+    border: none;
+    padding: 0; 
+}
 .nav__wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-family: Montserrat;
+}
+.nav__wrapper-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
 }
 .nav__wrapper ul {
     width: 300px;
@@ -295,7 +314,7 @@ body, html {
 }
 .content-ellipse_blue {
     position: absolute;
-    top: 250px;
+    top: 170px;
     left: calc(160% - 800px/2 + 311px);
 
     width: 800px;
@@ -326,20 +345,21 @@ body, html {
 }
 .content__shopnow-item > img {
     width: 100%;
+    max-width: 394px;
     max-height: 400px;
 }
 .content__shop-rec {
     position: absolute;
     bottom: 16px;
     right: 0px;
-    max-width: 240px;
-    max-height: 80px;
+    max-width: 210px;
+    max-height: 70px;
     width: 100%;
     height: auto;
-    background: rgba(0, 0, 0, 0.38);
+    /* background: rgba(0, 0, 0, 0.38); */
 }
 .content__shop-rec > p {
-    margin: 28px 24px;
+    margin: 22px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -791,7 +811,9 @@ body, html {
 /* responsive website */
 @media only screen and (max-width: 768px) {
     .header__top,
-    .nav__wrapper,
+    /* .nav__wrapper, */
+    .nav__search,
+    .nav__cart,
     .content__shop,
     .content__rectangle_pos,
     .content__rectangle_lans,
@@ -803,6 +825,10 @@ body, html {
     .content-info p,
     .content-info span {
         display: none !important;
+    }
+
+    .nav__wrapper ul {
+        padding: 0;
     }
 
     .p-top-big {
@@ -863,8 +889,10 @@ body, html {
     }
 
     .header {
-        padding: 5px 0;
+        padding: 0;
     }
+
+    
 
     .navbar__responsive {
         display: flex;
@@ -872,6 +900,11 @@ body, html {
         justify-content: space-between;
         align-items: center;
         font-size: 24px;
+    }
+    .navbar__res-cart {
+        position: absolute;
+        top: 10px;
+        right: 10px;
     }
     .nav__left {
         display: flex;
@@ -930,6 +963,11 @@ body, html {
         margin-bottom: 20px;
     }
 
+    .content__shop-rec {
+        max-width: 180px;
+        max-height: 65px;
+    }
+
     .cart__content-app > p {
         margin-left: 15px;
         font-size: 24px;
@@ -948,11 +986,12 @@ body, html {
 
 }
 
+/*Add on css*/
 .search-box input[type="text"] {
     border: none;
     position: absolute;
-    top: 12px;
-    right: 55px;
+    top: 15px;
+    right: 50px;
     background: none;
     z-index: 10;
     width: 25px;
@@ -991,8 +1030,8 @@ body, html {
     z-index: 1;
     position: absolute;
     border: 2px solid black;
-    top: 12px;
-    right: 55px;
+    top: 15px;
+    right: 50px;
     width: 25px;
     height: 25px;
     transition: all 0.25s ease-in 0.25s;
